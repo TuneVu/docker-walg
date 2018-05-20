@@ -1,5 +1,5 @@
 FROM golang:alpine as builder
-ARG VERSION=master
+ARG VERSION=v0.1.8
 ENV GOBIN=/usr/local/go/bin/
 
 RUN apk add --no-cache git make
